@@ -19,7 +19,7 @@ switch(op){
         respuesta = "La multiplicacion entre: " + String(num1)+ " y " + String(num2)+ " es: " +String(num1*num2);
         break;
     case 4:
-        respuesta = "La division entre: " + String(num1)+ " y " + String(num2)+ " es: " +String(Math.round(num1/num2));
+        respuesta = "La division entre: " + String(num1)+ " y " + String(num2)+ " es: " +String(num1/num2);
         break;
 }
 alert(respuesta)
