@@ -19,6 +19,9 @@ switch(op){
         respuesta = "La multiplicacion entre: " + String(num1)+ " y " + String(num2)+ " es: " +String(num1*num2);
         break;
     case 4:
+        while (num2 <= 0){
+            num2 = parseFloat(prompt("Ingrese un divisor mayor a cero: "));
+        }
         respuesta = "La division entre: " + String(num1)+ " y " + String(num2)+ " es: " +String(num1/num2);
         break;
 }
