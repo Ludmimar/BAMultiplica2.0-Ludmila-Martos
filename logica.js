@@ -4,7 +4,7 @@ let op = parseInt(prompt("Ingrese que operacion desea realizar: 1)Suma/ 2)Resta/
 let respuesta;
 
 /*validar que seleccione una opcion correcta */
-while(op > 4){
+while(op > 4  || op < 1){
     op = parseInt(prompt("Ingrese una opcion valida: 1-> para Suma/ 2-> para Resta/ 3-> para Multiplicacion/ 4-> para Division"));
 }
 
